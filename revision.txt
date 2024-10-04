@@ -1,0 +1,5 @@
+•Buttons - kailangan same ng button sa log in button, but hindi na magagalaw 'yong text
+
+•Email - gmail, parang ganon sa login, may text na lalabas pag walang @gmail.com ganon
+
+•Number - tapos yung text field naman sa may phone numer dapat numbers lang pwede ilagay, nagnenext pa rin kasi ket letter ilagay e

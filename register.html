@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+       
+       
+    </style>
+</head>
+<body>
+    
+    <div class="container">  
+        <h2>Create Account</h2>
+        
+        <div class="register-box active"> <!-- First step is visible -->
+            <form id="step1">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="surname" placeholder="Surname" required>
+                <button type="submit" class="submit-btn">Next</button>
+            </form>
+        </div>
+    
+        <div class="register-box">
+            <form id="step2">
+                <input type="text" id="phone" placeholder="Phone number" required pattern="[0-9]{11}" title="Please enter a valid 11-digit phone number">
+                <input type="text" id="email" placeholder="Email" required required pattern="[a-zA-Z0-9._%+-]+@gmail\.com" title="Please enter a valid Gmail address ending with @gmail.com">
+                <div id="emailError" class="error"></div>
+                <button type="submit" class="submit-btn">Next</button>
+            </form>
+        </div>
+    
+        <div class="register-box">
+            <form id="step3">
+                <input type="text" id="email2" placeholder="Email" required required pattern="[a-zA-Z0-9._%+-]+@gmail\.com" title="Please enter a valid Gmail address ending with @gmail.com">
+                <div id="email2Error" class="error"></div>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit" class="submit-btn">Create</button>
+            </form>
+        </div>
+    </div>
+    
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+</html>
